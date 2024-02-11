@@ -2,16 +2,19 @@
 
 ## Pornirea Proiectului
 
-Proiectul este divizat în două părți: frontend și backend.
-Deschide doua terminale:
-1. Navighează în directorul `front` al proiectului:
+Proiectul este divizat în două părți: frontend și backend. Deschide două terminale:
+
+1. **Frontend:**
+   ```bash
    cd front
    npm install
    npm run serve
-2. Navighează în directorul api al proiectului:
-   cd api
-   npm install
-   node app.js
+
+1. **Backend:**
+   ```bash
+  cd api
+  npm install
+  node app.js
 
 Conturi utilizate pentru login:
 ttt@gmail.com / anaana - cont de vanzator
