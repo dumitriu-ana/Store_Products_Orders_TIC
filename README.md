@@ -16,15 +16,17 @@ Proiectul este divizat în două părți: frontend și backend. Deschide două t
    npm install
    node app.js
 
-Conturi utilizate pentru login: <br>
-ttt@gmail.com / anaana - cont de vanzator <br>
-maria@gmail.com / anaana - cont de cumparator <br>
-
+## User Registration Page
 ## Pagina de inregistrare a unui nou utilizator
+This is the section where a user can create a new account. Access the registration page and fill in the required information. Ensure that you follow the security requirements for the password. Please note that you cannot register with an existing email address, and the password must contain a minimum of 6 characters. <br>
+Acesta este secțiunea în care un utilizator poate crea un cont nou. Accesează pagina de înregistrare și completează informațiile necesare. Asigură-te că respecți cerințele de securitate pentru parolă. Notă: nu poți înregistra un cont cu o adresă de email existentă și parola trebuie să conțină cel puțin 6 caractere.
 
 ![image](https://github.com/dumitriu-ana/Store_Products_Orders_TIC/assets/72306782/766126a4-caa7-4311-b697-b34de6ed7a2e)
 
+## Authentication Page
 ## Pagina de autentificare 
+The user account must be created before authentication. <br>
+Contul utilizatorului trebuie creat înainte de autentificare.
 ![image](https://github.com/dumitriu-ana/Store_Products_Orders_TIC/assets/72306782/078903be-6055-4970-89ea-bd229486946b)
 
 ## Pagina acasa in care sunt afisate toate produsele (din perspectiva cumparatorului)
