@@ -1,21 +1,5 @@
 # Online Store where customers can place orders (Magazin online în care clienții pot plasa comenzi)
 
-## Pornirea Proiectului
-
-Proiectul este divizat în două părți: frontend și backend. Deschide două terminale:
-
-1. **Frontend:**
-   ```bash
-   cd front
-   npm install
-   npm run serve
-
-2. **Backend:**
-   ```bash
-   cd api
-   npm install
-   node app.js
-
 ## User Registration Page  (Pagina de inregistrare a unui nou utilizator)
 This is the section where a user can create a new account. Access the registration page and fill in the required information. Ensure that you follow the security requirements for the password. Please note that you cannot register with an existing email address, and the password must contain a minimum of 6 characters. <br>
 Acesta este secțiunea în care un utilizator poate crea un cont nou. Accesează pagina de înregistrare și completează informațiile necesare. Asigură-te că respecți cerințele de securitate pentru parolă. Notă: nu poți înregistra un cont cu o adresă de email existentă și parola trebuie să conțină cel puțin 6 caractere.
@@ -63,4 +47,18 @@ Lista de utilizatori din baza de date.
 ![image](https://github.com/dumitriu-ana/Store_Products_Orders_TIC/assets/72306782/03186518-abbb-475f-85c2-e8bf4b14c2d7)
 
 
+## Pornirea Proiectului
 
+Proiectul este divizat în două părți: frontend și backend. Deschide două terminale:
+
+1. **Frontend:**
+   ```bash
+   cd front
+   npm install
+   npm run serve
+
+2. **Backend:**
+   ```bash
+   cd api
+   npm install
+   node app.js
