@@ -1,4 +1,4 @@
-# pana
+# Project 
 
 ## Project setup
 ```
