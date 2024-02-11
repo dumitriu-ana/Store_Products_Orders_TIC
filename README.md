@@ -10,11 +10,11 @@ Proiectul este divizat în două părți: frontend și backend. Deschide două t
    npm install
    npm run serve
 
-1. **Backend:**
+2. **Backend:**
    ```bash
-  cd api
-  npm install
-  node app.js
+   cd api
+   npm install
+   node app.js
 
 Conturi utilizate pentru login:
 ttt@gmail.com / anaana - cont de vanzator
