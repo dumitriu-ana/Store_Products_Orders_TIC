@@ -1,0 +1,105 @@
+/* Stiluri pentru div-ul .loginForm */
+body {
+    background-color: #fcf6ce; /* Fundal crem deschis pentru întreaga pagină */
+  }
+.loginForm {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fcf6ce; 
+  }
+  
+  /* Stiluri pentru form */
+  form {
+    color: #388e3c;
+    margin-top: 20px;
+    padding: 5vh;
+    border: 5px solid #ffc507; 
+    border-radius: 5px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    background-color: #ffeb3ba5;
+  }
+  
+  /* Stiluri pentru input și buton */
+  input[type="email"],
+  input[type="password"],
+  button[type="submit"] {
+    width: 100%;
+    margin-top: 3vh; /* Mai mult spațiu între elemente */
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #4caf50; /* Bordură verde deschis */
+    
+  }
+  
+  /* Stiluri pentru butonul de submit */
+  button[type="submit"] {
+    background-color: #4caf50; /* Buton verde deschis */
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    
+    transition: background-color 0.3s; /* Tranzitie pentru hover */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #388e3c; /* Buton verde închis la hover */
+  }
+  
+  /* Stil pentru textul din input */
+  input[type="email"],
+  input[type="password"] {
+    background-color: #fcf6ce; /* Fundal crem deschis pentru input */
+  }
+  
+
+@media (max-width: 767px) {
+  body {
+      background-color: black; /* Fundal negru pentru dispozitive mobile */
+  }
+
+  .loginForm {
+      background-color: black; /* Fundal negru pentru dispozitive mobile */
+      max-width: 90%;
+      margin: 0 auto;
+      padding: 20px;
+
+  }
+
+  form {
+    color: #fcf6ce;
+    margin-top: 20px;
+    padding: 5vh;
+    border: 5px solid #ffc507; 
+    border-radius: 5px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    background-color: #ffeb3ba5;
+  }
+
+  button[type="submit"] {
+    background-color: #ffc507; /* Buton verde deschis */
+    font-size: large;
+    color: green;
+    cursor: pointer;
+    
+    transition: background-color 0.3s; /* Tranzitie pentru hover */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #d6a503; /* Buton verde închis la hover */
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+      background-color: rgba(209, 255, 116, 0.337); /* Fundal roșu pentru tablete */
+  }
+
+  .loginForm {
+      background-color: rgba(209, 255, 116, 0.337);; /* Fundal roșu pentru tablete */
+      max-width: 70%;
+      margin: 0 auto;
+      padding: 20px;
+  }
+}

@@ -1,0 +1,86 @@
+/* navbar-style.css */
+
+nav {
+    background-color: #fce28c;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #105e00;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    color: #388e3c; 
+  }
+  
+  
+/* The sidebar menu */
+.sidebar  {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #fce28c; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 12vh; /* Place content 60px from the top */
+  transition: 0.4s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: large;
+  color: #105e00;
+  display: block;
+  transition: 0.3s;
+}
+.category-item{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: large;
+  color: #105e00;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar button, a:hover {
+  color: #388e3c;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 5vh;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  position: fixed;
+  top: 12vh; /* Ajustează după înălțimea meniului orizontal */
+  left: 20px; /* Ajustează pentru a poziționa butonul în partea stângă */
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #105e00;
+  color: #fce28c;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #093600;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}

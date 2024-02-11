@@ -1,0 +1,79 @@
+.about{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+h1{
+   text-align: center;
+}
+.card {
+    background-color: #fef5da;
+
+    border: 1.5px solid #4caf50; 
+    box-shadow: 1px 4px 8px rgba(76, 175, 80, 0.5);
+  }
+.title-price {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px; /* adaugat padding pentru a evidentia mai bine card-ul */
+  }
+  
+  .title {
+    font-weight: bold;
+    color: green; 
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #ff9800; /* portocaliu */
+    text-align: right;
+  }
+  
+  .description {
+    text-align: center;
+    color: #808080; /* gri */
+  }
+  
+  .btnSort{
+    margin: 1vw;
+    text-align: right;
+  }
+
+  .sort-text{
+    background-color: green;
+    color: #fef5da;
+    padding: 1vw;
+    
+  }
+
+   
+
+@media (max-width: 767px) {
+  body {
+      background-color: black; /* Fundal negru pentru dispozitive mobile */
+      
+  }
+
+  h1{
+    text-align: center;
+    color: #fef5da;
+ }
+ p{
+  color: #fef5da;
+ }
+
+ .sort-text{
+  background-color: #ff9800;
+  color: green;
+  padding: 1vw;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+      background-color: rgba(209, 255, 116, 0.337); /* Fundal roșu pentru tablete */
+  }
+
+
+}

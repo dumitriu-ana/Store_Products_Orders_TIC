@@ -1,0 +1,97 @@
+.custom-title-background {
+    background-color: rgb(55, 164, 55); /* culoarea de fundal verde */
+    padding: 16px; /* adăugați un spațiu între fundal și text */
+  }
+  
+  .white-text {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+    color: white; 
+  }
+
+  .price-text{
+    font-size: large;
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 2%;
+    color: rgb(252, 164, 0); 
+  }
+
+  .btn-buy
+  {
+    background-color:  rgb(252, 164, 0); ;
+  }
+
+
+
+  
+@media (max-width: 767px) {
+  body {
+      background-color: black; /* Fundal negru pentru dispozitive mobile */
+  }
+  
+h2{
+  color: #ffeb3b;
+}
+.custom-title-background {
+  background-color: #ffeb3b; 
+}
+
+.white-text {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2%;
+  color: green; 
+}
+
+.price-text{
+  font-size: large;
+  font-weight: bold;
+  text-align: right;
+  padding-bottom: 2%;
+  color: black; 
+}
+
+.btn-buy
+{
+  background-color:  rgb(252, 164, 0); ;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+      background-color: rgba(209, 255, 116, 0.337); /* Fundal roșu pentru tablete */
+  }
+
+  h2{
+    color: green;
+    font-size: 6vw;
+  }
+  .container-card{
+    max-width: 70%;
+  }
+  .custom-title-background {
+    background-color: #ffeb3b; 
+    
+  }
+  
+  .white-text {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+    color: green; 
+  }
+  
+  .price-text{
+    font-size: large;
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 2%;
+    color: black; 
+  }
+}
